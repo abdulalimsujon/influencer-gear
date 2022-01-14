@@ -1,0 +1,109 @@
+
+/* font */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Oswald&family=Playfair+Display&family=Poppins:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Oswald&family=Playfair+Display&family=Poppins:ital,wght@1,200&display=swap');
+
+/* common things */
+body{
+    font-family: 'Montserrat', sans-serif;
+    padding: 0;
+    margin:0;
+    background-color: #FFFFFF;
+    
+    
+}
+
+
+a{
+    text-decoration: none;
+
+}
+a:hover{
+    text-decoration:underline;
+}
+
+
+
+/* nav-part */
+
+.nav-part{
+    margin:20px 50px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav-top-right{
+    padding-top:30px;
+    width:500px;
+    height:150px;
+    margin: 2px solid black;
+
+}
+.nav-top-left{
+    padding-left: 50px;
+}
+.nav-top-right a{
+    padding-left: 20px;
+}
+
+/* header part */
+
+header{
+    display: flex;
+    justify-content: space-between;
+}
+.header-left{
+
+    width:582px;
+    height:270px;
+    padding-left:100px;
+    
+
+}
+.header-right img{
+    height: 414px;
+    width: 440px;
+    left: 835px;
+    top: 211px;
+    border-radius: 0px;
+ }
+    
+
+ /* header-footer */
+
+ .header-footer{
+    height: 110px;
+    width: 910px;
+    left: 165px;
+    top: 725px;
+    border-radius: 0px;
+    padding-left:25%;
+    
+ }
+
+ .header-footer .img{
+     display: flex;
+     justify-content: space-between;
+ }
+     
+.button{
+    height: 30px;
+    width: 150px;
+    border-radius: 41px;
+    padding: 10px;
+    background: #E02C6D;
+    text-align: center;
+
+}
+    
+  /* button-font */
+
+.button a{ 
+font-family: 'Poppins', sans-serif;
+font-size: 16px;
+font-style: normal;
+
+color: #FFFFFF;
+
+}
+
