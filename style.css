@@ -31,11 +31,21 @@ a:hover{
  /* animation work */
  @keyframes sliding {
      from{
-        transform: scale(1.7) rotate(60deg);
+        transform: scale(1.7) rotate(30deg);
         transition: transform 2s ease-in-out;
      }
     }
   
+    @keyframes moving{
+        from{
+            transform: translateX(100px);
+            transition: transform 2s ease;
+            position: 0;
+        }
+        to{
+            positon:150px;
+        }
+    }
 
 /* nav-part */
 
@@ -56,6 +66,10 @@ a:hover{
 .nav-top-left{
     padding-top: 15px;
     padding-left: 120px;
+
+}
+.nav-top-left a{
+    padding-left:0%
 
 }
 .nav-top-left a
@@ -170,6 +184,35 @@ color: #FFFFFF;
 .rating .fa-star{
     color:gold;
 }
+/* ........................................................creative part.................................... */
+.creative{
+    font-weight: 900;
+    text-align: center;
+    color: coral;
+
+}
+.creative-part{
+    display: flex;
+}
+.creative-full img{
+    width:50%;
+
+}
+.move{
+    animation: moving 3s ease 1s   infinite;
+    animation-play-state: running;
+}
+.creative-full{
+    display: inline-block;
+    flex: wrap;
+}
+.creative-half{
+  width:50%;
+} 
+.creative-full img{
+    padding-right:20px;
+    width:120%;
+}
 
 
 /* .................................main footer................. */
@@ -281,6 +324,9 @@ footer{
     .main-footer{
         width:100%;
     }
+    .footer-icon>fab{
+             padding-left:10px;
+    }
     .collections{
         display:grid;
         grid-template-columns: repeat(3,1fr);
@@ -289,6 +335,3 @@ footer{
     
 }
 
-.frame{
-    padding:30px;
-}
