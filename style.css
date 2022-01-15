@@ -109,7 +109,7 @@ header{
 
  }
 
- /* header-footer */
+ /* .............header-footer */
 
  .header-footer{
     height: 110px;
@@ -136,7 +136,7 @@ header{
 
 }
     
-  /* button-font */
+  /* .............button-font */
 
 .button a{ 
 font-family: 'Poppins', sans-serif;
@@ -236,6 +236,10 @@ color: #FFFFFF;
 /* .................................main footer................. */
 footer p{
     display:inline-block;
+}
+
+.footer-icon i{
+    padding-left:10px;
 }
 footer{
     background-color: rgb(3, 3, 32);
