@@ -185,6 +185,21 @@ color: #FFFFFF;
     color:gold;
 }
 /* ........................................................creative part.................................... */
+
+.creative-half>.img1:hover{
+    transform: scale(1.2);
+    transition: transform 0.1 ease-in-out;
+
+}
+.creative-half>.img2:hover{
+    transform: scale(1.2);
+    transition: transform 0.1 ease-in-out;
+
+}
+
+.creative-heading h1{
+    text-align: center;
+}
 .creative{
     font-weight: 900;
     text-align: center;
@@ -201,6 +216,9 @@ color: #FFFFFF;
 .move{
     animation: moving 3s ease 1s   infinite;
     animation-play-state: running;
+}
+.mov h1{
+    color: blue;
 }
 .creative-full{
     display: inline-block;
